@@ -1,0 +1,141 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;300&display=swap');
+
+  body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(15, 23, 42, 1);
+    color: white;
+  }
+
+  .main{
+    /* border: solid 2px; */
+    display: flex;
+    position: relative;
+  }
+
+  .container{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 270px;
+    width: 360px;
+    /* border: solid 2px; */
+    display: flex;
+    flex-direction: column;
+  }
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.join_txt, h1{
+    margin: 0;
+    text-align: left;
+    font-size: 39px;
+    font-weight: 600;
+}
+
+.clarity_txt, p{
+    margin: 0;
+    margin-top: 6px;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgba(148, 163, 184, 1);
+}
+
+.btn_sign{
+    display: flex;
+    background-color: rgba(30, 41, 59, 1);
+    padding: 13px 90px;
+    border-radius: 40px;
+    border: none;
+    align-items: center;
+    margin-top: 27px;
+}
+
+.btn_sign img{
+    margin-right: 10px;
+    width: 10%;
+    height: auto;
+}
+
+.btn_sign a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+input{
+    border-radius: 40px;
+    padding: 13px 90px;
+    background-color: rgba(15, 23, 42, 1);
+    /* border: transparent; */
+    border: solid 0.2px rgba(148, 163, 184, 1);
+}
+
+label{
+    /* margin-top: 20px; */
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.custom-input::placeholder {
+    color: rgba(148, 163, 184, 1);
+    font-size: 13px;
+}
+
+.custom-input{
+    color: white;
+}
+
+.checkbox-container{
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-input{
+    margin-right: 10px;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 20%;
+}
+
+.create_btn{
+    display: flex;
+    padding: 13.5px 30.5px;
+    background-color: rgba(37, 99, 235, 1);
+    border-radius: 40px;
+    border: none;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.create_btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.no_account{
+    margin-top: 10px;
+}
+
+.no_account span a{
+    text-decoration: none;
+    color: rgba(37, 99, 235, 1);
+}
+
+.form_child{
+    margin-top: 35px;
+}
+
+.img img{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    left: 9%;
+    top: 8%;
+    border-radius: 30px;
+}
